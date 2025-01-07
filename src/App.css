@@ -1,0 +1,184 @@
+#root {
+background-color: aqua;
+width: 100%;
+}
+.landing-page {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Header Section */
+.header {
+  background-image: url(https://res.cloudinary.com/db8e98ggo/image/upload/v1735946384/Dise%C3%B1o_sin_t%C3%ADtulo_4_uzsy4d.png);
+  background-size: cover; /* Cambiar a 'cover' para que el fondo ocupe todo el contenedor */
+  background-repeat: no-repeat; /* Evitar repeticiones para mejorar el diseño */
+  background-attachment: fixed; /* Mantener fijo el fondo al hacer scroll */
+  background-position: center; /* Centrar la imagen para un mejor aspecto */
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;}
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+   .header{
+    background-size: cover; /* Ajustar el tamaño del fondo para pantallas más pequeñas */
+    background-attachment: scroll; /* Evitar problemas de rendimiento en móviles */
+    padding: 30px 10px; /* Reducir el padding en dispositivos pequeños */
+   }
+  }
+  
+.logoimg{
+  width: 300px;
+  height: 250px;
+  border-radius: 50%;
+  transform: translate(0,-5rem);
+  margin-bottom: -20px;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "Agbalumo", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: -1.8rem;
+  transform: translate(0,-7rem);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-family: "Playwrite IS", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 1rem;
+  transform: translate(0,-4rem);
+}
+.subtitle2 {
+  font-size: 1.5rem;
+  font-family: "Playwrite IS", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: -1rem;
+  transform: translate(0,-4rem);
+}
+
+.cta-container {
+  margin-top: 20px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background-color: #7622a4;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translate(2rem,0rem);
+  text-decoration: none;
+}
+.cta-button2 {
+  padding: 15px 30px;
+  background-color: #7622a4;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translate(2rem,0rem);
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  transform: scale(1.1);
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.benefit-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 700px;
+  color:#350450 ;
+  text-align: center;
+  box-shadow: 0 4px 6px #7622a4;
+}
+.titloitem{
+  font-size: 1.5rem;
+  transform: translate(0,-2.5rem);
+}
+.benefit-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: -3.5rem;
+
+}
+.imgitemdec{
+  width: 150px;
+  height: 150px;
+}
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #7622a4, #000000);
+  color: white;
+  padding: 50px 20px;
+}
+
+.cta-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button-secondary {
+  padding: 15px 30px;
+  background-color: #6a11cb;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.cta-button-secondary:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
